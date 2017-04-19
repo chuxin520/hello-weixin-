@@ -1,0 +1,49 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 50px;
+}
+.title-weight {
+  width: 100%;
+  height:20px;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 900;
+}
+.xiaozi { 
+  margin-top:10px; 
+  width: 100%;
+  height: 20px;
+  font-size: 16px;
+  color: red;
+}
+.explain {
+  font-size: 14px;
+}
+.font-color-red {
+  color: red;
+  font-style: oblique ;
+}
+.font-color-green {
+  color: yellow;
+  font-style: normal ;
+}
+.font-color {
+  color: pink;
+}

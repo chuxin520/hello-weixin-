@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<!--整体上的开发和web前端相似-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+  <!--显示用户信息 图片-->
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <!--用户名-->
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <!--文档 结构 内容 体验-->
+  <view class="flex-view-item title-weight">
+  <text>文档 结构 内容 体验</text>
+  </view>
+  <view class="xiaozi">
+    <text class="xiao-zi">基于微信小程序官方的实例源码</text>
+  </view>
+   <view class="explain">
+    <text class="">js ---------- JavaScrip文件
+json -------- 项目配置文件，负责窗口颜色等等
+wxml ------- 类似HTML文件
+wxss ------- 类似CSS文件</text>
+  </view>
+</view>
+
+<!--js动态改变css样式-->
+<!--事件处理函数在index.js里面-->
+<view style="text-align: left;">
+ <label style="color:{{color}};">我会变色</label>
+ <button bindtap="clickRed">变红</button>
+ <button bindtap="clickgreen">变黄</button>
+</view>
