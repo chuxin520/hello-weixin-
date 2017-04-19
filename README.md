@@ -29,3 +29,6 @@ app.wxss
 app.wxml
 
 这个也不是必须的，而且这个并不是指主界面哦~因为小程序的主页面是靠在JSON文件中配置来决定的
+
+#代码编写
+你的代码写在pages文件下的三个文件 分别对应前端的html css js文件 are you ready?
